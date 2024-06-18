@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   
+}
+body{
+   background-color: blanchedalmond;
+    
+}
+header{
+ background: rgb(159, 114, 114);
+ height: 20%;
+ padding-bottom: 25px;
+ 
+}
+header h1{
+    text-align: center;
+    color: bisque;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+header nav ul {
+    text-align: center;
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color:wheat;
+    letter-spacing:2px ;
+}
+a:hover{
+    font-size: 23px;
+    color: black;
+}
+main table tr{
+    width:100%;
+    display: grid;
+    gap: 30px 100px;
+    grid-template-columns:repeat(3,1fr) ;
+ 
+}
+main table{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+strong{
+    font-size: 30px;
+    color: rgb(56, 52, 52);
+
+}
+.q{
+    margin-bottom: 10px;
+}
+ img{
+    width: 100%;
+    height: 300px;
+ }
+ footer p{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(58, 57, 56);
+ }
+ .aa{
+    margin-top: 7px;
+    margin-bottom:5px;
+ }
+ table tr td{
+    line-height: 40px;}
+ form fieldset {
+        height: 400px ;
+
+    }
+    .c{
+        margin-bottom: 40px;
+
+    }
+    .l{
+        margin-bottom: 50px;
+    }
+    
